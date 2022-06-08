@@ -86,9 +86,9 @@ func insertIntoDB(){
 
 	for _, q := range queries {
 		// db.Raw(q)
+		// fmt.Println("::::::", "!"+q+"!")
 		if q != ""{
 			db.Exec(q)
-			// fmt.Println("::::::", q)
 		}
 	}
 
