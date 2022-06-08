@@ -1,6 +1,6 @@
-INSERT INTO users (id, username) VALUES
-  (10, 'user10'),
-  (9, 'user9'),
-  (8, 'user8'),
-  (7, 'user7'),
-  (6, 'user6');
+INSERT INTO users (id, created_at, username) VALUES
+  (10, NOW(), 'user10'),
+  (9, NOW(), 'user9'),
+  (8, NOW(), 'user8'),
+  (7, NOW(), 'user7'),
+  (6, NOW(), 'user6');
